@@ -9,7 +9,7 @@ interface IBulletPoints {
 const BulletPoints: React.FunctionComponent<IBulletPoints> = (props : IBulletPoints) => {
   return (
     <ul>
-        {props.bulletPoints.map(x => {
+        {props.bulletPoints && props.bulletPoints.map(x => {
             return (
                 <li>
                     <Text>
