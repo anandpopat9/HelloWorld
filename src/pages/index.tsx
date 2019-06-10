@@ -13,7 +13,7 @@ const App: React.FunctionComponent = () => {
     >
       <Title />
       <Section title="Work Experience" children={
-        <SubSection title="Mueller Reports" date="Jan 1, 2019 - Mar 2, 2019" subTitle="Software Engineer"/>
+        <SubSection title="Mueller Reports, Buffalo, NY" date="July 2018 – Present" subTitle="Software Developer"/>
       } />
     </Stack>
   )
